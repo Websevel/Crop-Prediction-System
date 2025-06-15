@@ -1,0 +1,81 @@
+body {
+  background-image: url("1305.jpg"); /* your uploaded image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(1px);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  padding: 45px 35px;
+  width: 90%;
+  max-width: 520px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(200, 230, 200, 0.6);
+}
+
+h1 {
+  text-align: center;
+  color: #2e604d;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #a2d5a2;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6bbf59;
+  box-shadow: 0 0 10px rgba(110, 190, 100, 0.3);
+}
+
+button {
+  background: #6bbf59;
+  color: white;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: #5aa04b;
+  transform: scale(1.02);
+}
+
+#predi {
+  background: rgba(172, 224, 172, 0.25);
+  color: #345d3d;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 25px;
+  border-left: 5px solid #6bbf59;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
